@@ -11,10 +11,7 @@ class Application {
     public Response $response;
 
     public function __construct($rootpath)
-    {   
-
-      \var_dump($rootpath);
-      
+    {         
       self::$ROOT_DIR = $rootpath;
       self::$app = $this;
       $this->request = new Request();

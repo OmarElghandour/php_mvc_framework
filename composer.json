@@ -11,5 +11,7 @@
             "email": "omar.elghandour@cobrowser.net"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
 }

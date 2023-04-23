@@ -8,6 +8,11 @@ use app\core\Application;
 $app = new Application(dirname(__DIR__));
 
 
+
+echo '<pre>';
+var_dump($_REQUEST);
+
+echo '<pre>';
 $app->router->get('/number', function(){
     return 'hello world';
 });
