@@ -36,14 +36,9 @@ class Database {
         }
 
         require_once Application::$ROOT_DIR.'/migrations/'.$migration;
-
         $migrationName = pathinfo($migration, PATHINFO_FILENAME);
-
         $inctance = new $migrationName();
         $inctance->up();
-
-
-
        
     }
 
