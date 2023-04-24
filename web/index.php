@@ -5,14 +5,16 @@ require_once __DIR__.'/../vendor/autoload.php'; // Load the Composer autoloader
 use app\controllers\SiteController;
 use app\core\Application;
 
-$app = new Application(dirname(__DIR__));
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->load();
+$config = [
+    'dsn' => $_ENV['dsn'],
+    'dbuser' => $_ENV['dbuser'],
+    'dbpass' => $_ENV['dbpass']
+];
 
+$app = new Application(dirname(__DIR__), $config);
 
-
-echo '<pre>';
-var_dump($_REQUEST);
-
-echo '<pre>';
 $app->router->get('/number', function(){
     return 'hello world';
 });
