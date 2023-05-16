@@ -70,6 +70,6 @@ Copy code
 <p>This framework was inspired by various PHP frameworks and libraries that promote the MVC pattern and provide migration and routing capabilities.</p>
 
 <h2>Contact</h2>
-<p>For any inquiries or support requests, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+<p>For any inquiries or support requests, please contact <a href="mailto:omar.s.elghandour@gmail.com">omar.s.elghandour@gmail.com</a>.</p>
 </body>
 </html>
