@@ -1,7 +1,7 @@
 # PHP MVC Framework with Migration and Routing Support
 This is a lightweight PHP framework designed to help you build web applications following the Model-View-Controller (MVC) architectural pattern. It provides essential features such as support for database migrations and routing to help you create scalable and maintainable applications.
 
-Features
+#Features
 MVC Structure: The framework enforces the separation of concerns by organizing your code into Models, Views, and Controllers.
 Database Migration: Simplifies the process of managing database changes and version control by providing a migration system.
 Routing Support: Easily define and manage application routes to handle incoming requests.
@@ -51,7 +51,7 @@ Acknowledgments
 This framework was inspired by various PHP frameworks and libraries that promote the MVC pattern and provide migration and routing capabilities.
 
 Contact
-For any inquiries or support requests, please contact [your email address].
+For any inquiries or support requests, please contact omar.s.elghandour@gmail.com.
 
 
 
